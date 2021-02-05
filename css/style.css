@@ -26,6 +26,13 @@ header{
   margin-right: 30px;
   list-style: none;
 }
+a{
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+a:hover{
+  color:rgb(156, 153, 153);
+}
 .title{
   display: flex;
   margin-top: 100px;
@@ -79,11 +86,13 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.blue img:hover{
+  opacity: .5;
+}
 .red{
   background: linear-gradient(to top left, #eeb720,#f1623e,#f52e27);
   height: 450px;
   display: flex;
-  margin-top: 30px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -110,11 +119,13 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.red img:hover{
+  opacity: .5;
+}
 .green{
   background: linear-gradient(to top left,#4ae48f, #53e6da, #57b9d1);
   height: 450px;
   display: flex;
-  margin-top: 30px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -141,11 +152,13 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.green img:hover{
+  opacity: .5;
+}
 .pink{
   background: linear-gradient(to top left,#dd1616, #e97566, #f89374);
   height: 450px;
   display: flex;
-  margin-top: 30px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -172,11 +185,13 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.pink img:hover{
+  opacity: .5;
+}
 .blue2{
   background: linear-gradient(to top left, #57d1c7,#40adce,#1072a3);
   height: 450px;
   display: flex;
-  margin-top: 30px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -203,11 +218,13 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.blue2 img:hover{
+  opacity: .5;
+}
 .orange{
   background: linear-gradient(to top left, #dcdf39,#e48e1d,rgb(238, 98, 17));
   height: 450px;
   display: flex;
-  margin-top: 30px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -234,11 +251,13 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.orange img:hover{
+  opacity: .5;
+}
 .green2{
   background: linear-gradient(to top left, #62d3e7,#3cec9a,rgb(128, 226, 99));
   height: 450px;
   display: flex;
-  margin-top: 30px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -265,6 +284,9 @@ header{
   margin-right: 100px;
   margin-left: 100px;
 }
+.green2 img:hover{
+  opacity: .5;
+}
 
 .osirase{
   display: flex;
@@ -289,6 +311,10 @@ header{
   margin-right: auto;
   margin-top: 150px;
   margin-bottom: 100px;
+}
+.toiawase:hover{
+  background: black;
+  color: white;
 }
 .tota{
   text-align: center;
